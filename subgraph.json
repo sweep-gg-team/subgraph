@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "name": "sweep-fpmm",
+  "abis": {
+    "FPMMDeterministicFactory": {
+      "path": "./abis/FPMMDeterministicFactory.json"
+    },
+    "FixedProductMarketMaker": {
+      "path": "./abis/FixedProductMarketMaker.json"
+    },
+    "ConditionalTokens": {
+      "path": "./abis/ConditionalTokens.json"
+    }
+  },
+  "chains": ["edgeless-testnet"],
+  "instances": [
+    {
+      "abi": "FPMMDeterministicFactory",
+      "address": "0xfe9adFA4f3226177aD669dFdeDAddC73a6a6F4FB",
+      "startBlock": 1377103,
+      "chain": "edgeless-testnet"
+    },
+    {
+      "abi": "FixedProductMarketMaker",
+      "startBlock": 1377103,
+      "chain": "edgeless-testnet",
+      "source": {
+        "abi": "FPMMDeterministicFactory",
+        "eventSignature": "FixedProductMarketMakerCreation(address,address,address,address,bytes32[],uint256,address,uint256)",
+        "addressParam": "fixedProductMarketMaker"
+      }
+    },
+    {
+      "abi": "ConditionalTokens",
+      "address": "0x7B4967b3d08a5fc7693d981dfc5bDC574399FAef",
+      "startBlock": 1377094,
+      "chain": "edgeless-testnet"
+    }
+  ]
+}
