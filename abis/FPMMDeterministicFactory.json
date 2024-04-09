@@ -36,6 +36,20 @@
     "constant": false,
     "inputs": [
       {
+        "name": "consData",
+        "type": "bytes"
+      }
+    ],
+    "name": "cloneConstructor",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
         "name": "saltNonce",
         "type": "uint256"
       },
@@ -65,7 +79,7 @@
       },
       {
         "name": "owner",
-        "type": "address"
+        "type": "address[]"
       },
       {
         "name": "streamerFeePoolPercentage",
@@ -79,20 +93,6 @@
         "type": "address"
       }
     ],
-    "payable": false,
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "constant": false,
-    "inputs": [
-      {
-        "name": "consData",
-        "type": "bytes"
-      }
-    ],
-    "name": "cloneConstructor",
-    "outputs": [],
     "payable": false,
     "stateMutability": "nonpayable",
     "type": "function"
@@ -206,7 +206,7 @@
       {
         "indexed": true,
         "name": "creator",
-        "type": "address"
+        "type": "address[]"
       },
       {
         "indexed": false,
@@ -236,7 +236,7 @@
       {
         "indexed": false,
         "name": "owner",
-        "type": "address"
+        "type": "address[]"
       },
       {
         "indexed": false,
