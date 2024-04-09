@@ -16,13 +16,13 @@
   "instances": [
     {
       "abi": "FPMMDeterministicFactory",
-      "address": "0x27532FF262a1484d02c10f1F304abD307D3C6b2d",
-      "startBlock": 9110,
+      "address": "0x704Cdaff49172DBE6650C85Ba5a27c6e50FF6cf6",
+      "startBlock": 12209,
       "chain": "edgeless-testnet"
     },
     {
       "abi": "FixedProductMarketMaker",
-      "startBlock": 9110,
+      "startBlock": 12209,
       "chain": "edgeless-testnet",
       "source": {
         "abi": "FPMMDeterministicFactory",
@@ -32,8 +32,8 @@
     },
     {
       "abi": "ConditionalTokens",
-      "address": "0x0436790B0A4363A9aDa8496b4590F6d896e5CCF5",
-      "startBlock": 9110,
+      "address": "0x555dFF4819Da872c677F62DD814db211824C5B34",
+      "startBlock": 12209,
       "chain": "edgeless-testnet"
     }
   ]
