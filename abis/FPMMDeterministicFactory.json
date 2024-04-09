@@ -301,6 +301,70 @@
     "inputs": [
       {
         "indexed": true,
+        "name": "buyer",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "investmentAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "feeAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "outcomeIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "outcomeTokensBought",
+        "type": "uint256"
+      }
+    ],
+    "name": "FPMMBuy",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "seller",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "returnAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "feeAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "outcomeIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "outcomeTokensSold",
+        "type": "uint256"
+      }
+    ],
+    "name": "FPMMSell",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
         "name": "target",
         "type": "address"
       },
