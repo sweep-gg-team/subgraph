@@ -16,7 +16,7 @@
   "instances": [
     {
       "abi": "FPMMDeterministicFactory",
-      "address": "0x704Cdaff49172DBE6650C85Ba5a27c6e50FF6cf6",
+      "address": "0xb7FDbfb4D56023028110F71b032B9b8e70cA538D",
       "startBlock": 12209,
       "chain": "edgeless-testnet"
     },
