@@ -17,12 +17,12 @@
     {
       "abi": "FPMMDeterministicFactory",
       "address": "0xb7FDbfb4D56023028110F71b032B9b8e70cA538D",
-      "startBlock": 12209,
+      "startBlock": 13979,
       "chain": "edgeless-testnet"
     },
     {
       "abi": "FixedProductMarketMaker",
-      "startBlock": 12209,
+      "startBlock": 13979,
       "chain": "edgeless-testnet",
       "source": {
         "abi": "FPMMDeterministicFactory",
@@ -33,7 +33,7 @@
     {
       "abi": "ConditionalTokens",
       "address": "0x555dFF4819Da872c677F62DD814db211824C5B34",
-      "startBlock": 12209,
+      "startBlock": 13979,
       "chain": "edgeless-testnet"
     }
   ]
