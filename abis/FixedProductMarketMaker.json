@@ -16,6 +16,11 @@
         "indexed": false,
         "name": "sharesMinted",
         "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "addedFunds",
+        "type": "uint256"
       }
     ],
     "name": "FPMMFundingAdded",
