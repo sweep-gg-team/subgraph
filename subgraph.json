@@ -16,7 +16,7 @@
   "instances": [
     {
       "abi": "FPMMDeterministicFactory",
-      "address": "0x884454cCe4caB6fF7fc9c065231468917c2Ceb50",
+      "address": "0x77Cd4EA63232b26e76ADD8789f19a25143F0c3B7",
       "startBlock": 13979,
       "chain": "edgeless-testnet"
     },
@@ -26,13 +26,13 @@
       "chain": "edgeless-testnet",
       "source": {
         "abi": "FPMMDeterministicFactory",
-        "eventSignature": "FixedProductMarketMakerCreation(address,address,address,address,bytes32[],uint256,address,uint256)",
+        "eventSignature": "FixedProductMarketMakerCreation(address,address,address,address,bytes32[],uint256,address,uint256,uint256)",
         "addressParam": "fixedProductMarketMaker"
       }
     },
     {
       "abi": "ConditionalTokens",
-      "address": "0x555dFF4819Da872c677F62DD814db211824C5B34",
+      "address": "0x083C25F29b619B0Dfb790f46328DFd2cbCa6CEBe",
       "startBlock": 13979,
       "chain": "edgeless-testnet"
     }
