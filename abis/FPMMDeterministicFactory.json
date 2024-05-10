@@ -41,6 +41,11 @@
         "indexed": false,
         "name": "streamerFeePoolPercentage",
         "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "maxBuyAmount",
+        "type": "uint256"
       }
     ],
     "name": "FixedProductMarketMakerCreation",
