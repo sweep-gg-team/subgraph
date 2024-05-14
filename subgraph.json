@@ -12,18 +12,18 @@
       "path": "./abis/ConditionalTokens.json"
     }
   },
-  "chains": ["edgeless-testnet"],
+  "chains": ["blast-sepolia"],
   "instances": [
     {
       "abi": "FPMMDeterministicFactory",
-      "address": "0x77Cd4EA63232b26e76ADD8789f19a25143F0c3B7",
-      "startBlock": 13979,
-      "chain": "edgeless-testnet"
+      "address": "0x0c28a1EF0ccdD15cFd82C291bb0873a283F86da1",
+      "startBlock": 5381000,
+      "chain": "blast-sepolia"
     },
     {
       "abi": "FixedProductMarketMaker",
-      "startBlock": 13979,
-      "chain": "edgeless-testnet",
+      "startBlock": 5381000,
+      "chain": "blast-sepolia",
       "source": {
         "abi": "FPMMDeterministicFactory",
         "eventSignature": "FixedProductMarketMakerCreation(address,address,address,address,bytes32[],uint256,address,uint256,uint256)",
@@ -32,9 +32,9 @@
     },
     {
       "abi": "ConditionalTokens",
-      "address": "0x083C25F29b619B0Dfb790f46328DFd2cbCa6CEBe",
-      "startBlock": 13979,
-      "chain": "edgeless-testnet"
+      "address": "0xeBD311957f4C974adf5E9D9a73E2D1bfC41e5fF2",
+      "startBlock": 5381000,
+      "chain": "blast-sepolia"
     }
   ]
 }
